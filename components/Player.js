@@ -82,7 +82,6 @@ function Player() {
 
     return (
         <div className=" h-24 bg-gradient-to-b from-black to-gray-900 text-white grid grid-cols-3 text-xsmd:text-base px-2 md:px-8 ">
-            {/* Left */}
             <div className=" flex items-center space-x-4 ">
                 <img
                     className="hidden md:inline h-10 w-10"
@@ -94,8 +93,6 @@ function Player() {
                     <p>{songInfo?.artists?.[0]?.name} </p>
                 </div>
             </div>
-
-            {/* Center */}
 
             <div className="flex items-center justify-evenly  ">
                 <SwitchHorizontalIcon className="button" />
